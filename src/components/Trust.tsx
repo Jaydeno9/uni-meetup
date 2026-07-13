@@ -4,17 +4,17 @@ import Image from "next/image";
 
 const trusts = [
   {
-    img: "/trust-1.png",
-    title: "my verification only",
+    img: "/Trust-1.png",
+    title: ".edu.my verification only",
     desc: "Every user is tied to a real Malaysian university email. No outsiders, no exceptions.",
   },
   {
-    img: "/trust-2.png",
+    img: "/Trust-2.png",
     title: "Campus-only network",
     desc: "No spam, no fake accounts. Every profile carries a real campus identity.",
   },
   {
-    img: "/trust-3.png",
+    img: "/Trust-3.png",
     title: "Transit-accessible locations only",
     desc: "Meetups are pinned to well-known, transit-reachable public spots — never private addresses.",
   },
