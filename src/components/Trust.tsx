@@ -5,7 +5,7 @@ import Image from "next/image";
 const trusts = [
   {
     img: "/trust-1.png",
-    title: ".edu.my verification only",
+    title: "my verification only",
     desc: "Every user is tied to a real Malaysian university email. No outsiders, no exceptions.",
   },
   {
