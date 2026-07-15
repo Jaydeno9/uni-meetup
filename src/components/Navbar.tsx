@@ -77,10 +77,10 @@ export default function Navbar() {
 
           {/* RIGHT: auth */}
           <div className="site-nav__right">
-            <a href="/login" className="nav-login">
+            <a href="#" className="nav-login">
               Log in
             </a>
-            <a href="/signup" className="nav-signup">
+            <a href="#" className="nav-signup">
               Sign up
             </a>
           </div>
