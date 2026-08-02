@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/src/components/Navbar"; // adjust path to where your Navbar lives
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,6 +38,7 @@ export default function RootLayout({
         {/* main wrapper to push the footer down if you add one later */}
         <main className="flex-grow">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
